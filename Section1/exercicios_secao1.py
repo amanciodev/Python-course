@@ -39,12 +39,19 @@
 
 # 8. Crie uma variável que receba o número vinte e cinco milhões, trezentos e quarenta mil e setecentos.
 # OBS: Deixe esse número grande legível para outros programadores
-
+# numero = 25_340_700
 
 # 9. Faça um programa que leia um número inteiro e imprima-o
-
+# numero = int(input("Digite um número.."))
+# print(numero)
 
 # 10. Faça um programa que peça para o usuário digitar 3 valores inteiros e imprima a soma deles
-
+numero = input("Digite o primeiro número: ")
+numero2 = input("Digite o segundo número: ")
+numero3 = input("Digite o terceiro número: ")
+print(numero + numero2 + numero3)
 
 # 11. Faça um programa que recebe três valores e apresente a soma dos quadrados dos valores lidos
+valor = 100
+valor2 = 200
+valor = 300
