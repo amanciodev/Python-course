@@ -46,12 +46,15 @@
 # print(numero)
 
 # 10. Faça um programa que peça para o usuário digitar 3 valores inteiros e imprima a soma deles
-numero = input("Digite o primeiro número: ")
-numero2 = input("Digite o segundo número: ")
-numero3 = input("Digite o terceiro número: ")
-print(numero + numero2 + numero3)
+# numero = input("Digite o primeiro número: ")
+# numero2 = input("Digite o segundo número: ")
+# numero3 = input("Digite o terceiro número: ")
+# print(numero + numero2 + numero3)
 
 # 11. Faça um programa que recebe três valores e apresente a soma dos quadrados dos valores lidos
-valor = 100
-valor2 = 200
-valor = 300
+valor1 = int(input("Digite um valor: "))
+valor2 = int(input("Digite um valor: "))
+valor3 = int(input("Digite um valor: "))
+print(valor1**2 + valor2**2 + valor3**2)
+
+
